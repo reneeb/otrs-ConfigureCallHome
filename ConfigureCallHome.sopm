@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otrs_package version="1.1">
+    <Name>ConfigureCallHome</Name>
+    <Version>1.2.0</Version>
+    <Vendor>c.a.p.e. IT GmbH</Vendor>
+    <URL>http://www.cape-it.de/</URL>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <ChangeLog Version="1.2.0" Date="2013-10-15 17:51:16">CR: T2013101490000861 (added framework 3.3 based on OTRS 3.3 beta 4).</ChangeLog>
+    <ChangeLog>2013-05-23 v1.1.0 new package</ChangeLog>
+    <Description Lang="en">ConfigureCallHome - Disables the unrequested automatic submission of installed packages to OTRS AG (may be enabled by configuration).</Description>
+    <Framework>3.3.x</Framework>
+    <IntroInstall Lang="en" Title="Install Information" Type="pre">
+        
+        &lt;br/&gt;
+        &lt;strong&gt;WELCOME&lt;/strong&gt;
+        &lt;br/&gt;
+        &lt;br/&gt;
+        You are about to install the OTRS module ConfigureCallHome.
+        &lt;br/&gt;
+        &lt;br/&gt;
+        &lt;br/&gt;
+        c.a.p.e. IT ...easy.&lt;br/&gt;
+        &lt;br/&gt;
+    </IntroInstall>
+    <IntroInstall Lang="en" Title="Installation Information" Type="post">
+        
+        &lt;br/&gt;
+        &lt;strong&gt;WELCOME&lt;/strong&gt;
+        &lt;br/&gt;
+        &lt;br/&gt;
+        Disables the unrequested automatic submission of installed packages to OTRS AG (may be enabled by configuration  - see SysConfig &lt;i&gt;Package::ConfigureCallHomeVerificationPath&lt;/i&gt;).
+        &lt;br/&gt;
+        &lt;br/&gt;
+        c.a.p.e. IT ...easy.&lt;br/&gt;
+        &lt;br/&gt;
+    </IntroInstall>
+    <IntroUninstall Lang="en" Title="Uninstallation Information" Type="pre">
+        
+        &lt;br/&gt;
+        &lt;strong&gt;WELCOME&lt;/strong&gt;
+        &lt;br/&gt;
+        &lt;br/&gt;
+        You are about to UNINSTALL the ConfigureCallHome extensions package for OTRS.&lt;br/&gt;
+        &lt;br/&gt;
+        &lt;br/&gt;
+        &lt;br/&gt;
+        c.a.p.e. IT ...easy.&lt;br/&gt;
+        &lt;br/&gt;
+    </IntroUninstall>
+    <IntroUpgrade Lang="en" Title="Upgrade Information" Type="pre">
+        
+        &lt;br/&gt;
+        &lt;strong&gt;WELCOME&lt;/strong&gt;
+        &lt;br/&gt;
+        &lt;br/&gt;
+        You are about to upgrade the ConfigureCallHome extensions package for OTRS.&lt;br/&gt;
+        &lt;br/&gt;
+        &lt;br/&gt;
+        c.a.p.e. IT ...easy.&lt;br/&gt;
+        &lt;br/&gt;
+    </IntroUpgrade>
+    <IntroUpgrade Lang="en" Title="Upgrade Information" Type="post">
+        
+        &lt;br/&gt;
+        &lt;br/&gt;
+        &lt;br/&gt;
+        c.a.p.e. IT ...easy.&lt;br/&gt;
+        &lt;br/&gt;
+    </IntroUpgrade>
+    <CodeInstall Type="post">
+    </CodeInstall>
+    <CodeUpgrade Type="post">
+    </CodeUpgrade>
+    <CodeUninstall Type="pre">
+    </CodeUninstall>
+    <CodeReinstall Type="post">
+    </CodeReinstall>
+    
+    
+    <Filelist>
+        <File Location="doc/CHANGES_ConfigureCallHome.md" Permission="644"/>
+        <File Location="Kernel/Config/Files/ConfigureCallHome.xml" Permission="644"/>
+        <File Location="Kernel/Language/de_ConfigureCallHome.pm" Permission="644"/>
+        <File Location="Kernel/Modules/AdminPackageManager.pm" Permission="644"/>
+        <File Location="Kernel/System/Package.pm" Permission="644"/>
+    </Filelist>
+    <DatabaseInstall>
+    </DatabaseInstall>
+    <DatabaseUpgrade>
+    </DatabaseUpgrade>
+    <DatabaseReinstall>
+    </DatabaseReinstall>
+    <DatabaseUninstall>
+    </DatabaseUninstall>
+</otrs_package>
