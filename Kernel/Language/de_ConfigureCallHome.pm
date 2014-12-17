@@ -16,6 +16,7 @@
 
 package Kernel::Language::de_ConfigureCallHome;
 
+use utf8;
 use strict;
 use warnings;
 
