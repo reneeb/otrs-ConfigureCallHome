@@ -2,8 +2,8 @@
 * Copyright (C) 2006-2013 c.a.p.e. IT GmbH, http://www.cape-it.de/
 * $Id: CHANGES_ConfigureCallHome.md,v 1.1 2013-10-15 15:48:15 tto Exp $
 
-# ROADMAP TASKS
-* (2013/??/??) - CR: T (added framework 3.4 / 4.0) (LOGIN)
+# r4.0.1 (2014/12/17)
+* (2014/12/17) - updates for OTRS4
 
 # r1.2.0 (2013/10/15)
 * (2013/10/15) - CR: T2013101490000861 (added framework 3.3 based on OTRS 3.3 beta 4) (tto)
